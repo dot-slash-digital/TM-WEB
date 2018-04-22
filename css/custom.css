@@ -1,10 +1,7 @@
-.primary-color-light-text {
-    color: #af51ff !important;
-}
-
 .primary-color-dark {
-    background-color: #8238a2 !important;
-    border-color: #8238a2 !important;
+    background-color: #6c1492 !important;
+    border-color: #6c1492 !important;
+    color: #ffffff !important;
 }
 
 .primary-color-dark-text {
@@ -16,13 +13,21 @@
 }
 
 .primary-color-light {
-    border: 2px solid #af51ff !important;
-    background-color: #8238a2 !important;
+    border: 1px solid #9243d6 !important;
+    background-color: #6c1492 !important;
 }
 
 .primary-color-light:hover {
-    border: 2px solid #af51ff !important;
-    background-color: #af51ff !important;
+    border: 1px solid #9243d6 !important;
+    background-color: #9243d6 !important;
+}
+
+.primary-color-light-text {
+    color: #9243d6 !important;
+}
+
+.primary-color-light-text:hover {
+    color: #b76bf8 !important;
 }
 
 .secondary-color {
@@ -41,6 +46,14 @@
     color: #ffffff;
 }
 
+.white-text-faded {
+    color: #b2b2b2 !important;
+}
+
+.white-text-bright {
+    color: #e8e8e8 !important;
+}
+
 /*booked*/
 
 body #booked-profile-page input[type=submit].button-primary:hover,
@@ -51,7 +64,7 @@ body table.booked-calendar thead th,
 body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
 body #booked-profile-page .booked-profile-appt-list .appt-block .google-cal-button,
 body #booked-profile-page .booked-profile-header {
-	background: #8238a2!important;
+	background: #6c1492!important;
 }
 
 body #booked-profile-page input[type=submit].button-primary:hover,
@@ -61,7 +74,7 @@ body table.booked-calendar th,
 body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
 body #booked-profile-page .booked-profile-appt-list .appt-block .google-cal-button,
 body #booked-profile-page .booked-profile-header {
-	border-color: #8238a2!important;
+	border-color: #6c1492!important;
 }
 
 body table.booked-calendar tr.days,
@@ -80,14 +93,14 @@ body table.booked-calendar input[type=submit].button-primary,
 body .booked-modal input[type=submit].button-primary,
 body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
 body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block {
-	background: #8ed4cc;
+	background: #6c1492;
 }
 
 body #booked-profile-page input[type=submit].button-primary,
 body table.booked-calendar input[type=submit].button-primary,
 body .booked-modal input[type=submit].button-primary,
 body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
-	border-color: #8ed4cc;
+	border-color: #6c1492;
 }
 
 
@@ -99,7 +112,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	background-color: #f8f8f8!important;
 }
 .sc_custom_1459330954110 {
-	background-color: #8238a2!important;
+	background-color: #6c1492!important;
 }
 .sc_custom_1459343317996 {
 	background-color: #f8f8f8!important;
@@ -130,7 +143,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
     background-blend-mode: color-dodge;
 }
 .sc_custom_1459502371704 {
-	background-color: #8ed4cc !important;
+	background-color: #6c1492 !important;
 }
 .sc_custom_1459503174388 {
 	background-color: #f8f8f8 !important;
@@ -145,25 +158,13 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
     background-color: #f8f8f8!important;
 }
 .sc_custom_1459330954110 {
-    background-color: #8238a2!important;
+    background-color: #6c1492!important;
 }
 .sc_custom_1459773167157 {
     background-color: #f8f8f8!important;
 }
 .sc_custom_1459776057240 {
-    background-color: #8ed4cc!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
+    background-color: #6c1492!important;
 }
 .sc_custom_1459766274952 {
     margin-bottom: 13px!important;
@@ -174,7 +175,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 
 
 .sc_custom_1459502371704{
-	background-color:#8ed4cc!important;
+	background-color:#6c1492!important;
 }
 .sc_custom_1459783303281{
 	background-color:#f8f8f8!important;
@@ -193,7 +194,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 }
 
 .sc_custom_1459502371704 {
-	background-color: #8ed4cc!important;
+	background-color: #6c1492!important;
 }
 
 .sc_custom_1459783303281 {
@@ -253,25 +254,13 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
     background-color: #f8f8f8!important;
 }
 .sc_custom_1459330954110 {
-    background-color: #8238a2!important;
+    background-color: #6c1492!important;
 }
 .sc_custom_1459773167157 {
     background-color: #f8f8f8!important;
 }
 .sc_custom_1459776057240 {
-    background-color: #8ed4cc!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
+    background-color: #6c1492!important;
 }
 .sc_custom_1459766274952 {
     margin-bottom: 13px!important;
@@ -445,17 +434,17 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 .cu_block_15 {
 	text-transform: none;
 	text-align:center!important;
-	color:#8ed4cc!important;
+	color:#6c1492!important;
 }
 .cu_block_16 {
 	margin-bottom:2.1em;
 	font-size:1.46em;
-	color:#8ed4cc;
+	color:#6c1492;
 }
 .cu_block_17 {
 	margin-top:3em;
-	background-color:#8ed4cc!important; 
-	border-color:#8ed4cc!important;
+	background-color:#6c1492!important; 
+	border-color:#6c1492!important;
 }
 .cu_block_18 {
 	margin-top:1.5em;
@@ -476,6 +465,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 
 .cu_text_c {
 	text-align: center;
+    color: #e8e8e8;
 }
 .cu_text_r {
 	text-align: right;
@@ -649,7 +639,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 .home .custom_services_pricing {
 	margin-top:0px;
 	margin-bottom:0px;
-	background-color:#8ed4cc;
+	background-color:#6c1492;
 	width:585px;
 }
 .home .sc_icon_shape_square {
@@ -660,8 +650,8 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	margin-bottom:0px;
 	font-size:18px;
 	color:#ffffff!important;
-	background-color:#8238a2!important;
-	border-color:#8238a2!important;
+	background-color:#6c1492!important;
+	border-color:#6c1492!important;
 }
 .home .columns_nofluid .sc_align_center {
 	margin-bottom:1.8em;
@@ -710,7 +700,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	font-family: "Mr De Haviland", cursive; 
 	text-transform: none;
 	margin-bottom:-0.05em;
-	color:#8238a2;
+	color:#6c1492;
 }
 .home2 h1.even {
 	margin-bottom:0.3em;
@@ -724,8 +714,8 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 }
 .home2 .custom_product_we_use .sc_button {
 	margin-top:2em;
-	background-color:#8ed4cc!important;
-	border-color:#8ed4cc!important;
+	background-color:#6c1492!important;
+	border-color:#6c1492!important;
 }
 #sc_tab_009_1 .sc_button,
 #sc_tab_009_2 .sc_button,
@@ -734,8 +724,8 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 #sc_tab_655_1_94 .sc_button {
 	margin-top:2em;
 	margin-bottom:5em;
-	background-color:#8ed4cc; 
-	border-color:#8ed4cc;
+	background-color:#6c1492; 
+	border-color:#6c1492;
 }
 
 .home3 .body_wrap {
@@ -755,7 +745,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	margin-bottom:2em;
 }
 .home3 .icon-garden111 {
-	color:#8238a2!important;
+	color:#6c1492!important;
 }
 .home3 .esg-filters {
 	margin-bottom: 45px!important; 
@@ -787,7 +777,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	margin-right:10px;
 	margin-left:10px;
 	width:9em;
-	color:#8238a2!important;
+	color:#6c1492!important;
 	background-color:#ffffff!important;
 	border-color:#ffffff!important;
 }
@@ -852,35 +842,35 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 }
 
 .certificates .top_panel_image {
-	background-image: url(../images/1170x700.jpg);
+	background-image: url(../images/background_07.jpeg);
 }
 .eventspage .top_panel_image,
 .aboutus2 .top_panel_image,
 .postformats .top_panel_image {
-	background-image: url(../images/1170x700.jpg);
+	background-image: url(../images/background_07.jpeg);
 }
 .contactus .top_panel_image,
 .classicblog .top_panel_image {
-	background-image: url(../images/1170x700.jpg);
+	background-image: url(../images/background_07.jpeg);
 }
 .booking .top_panel_image,
 .services2 .top_panel_image,
 .masonry2 .top_panel_image {
-	background-image: url(../images/1170x700.jpg);
+	background-image: url(../images/background_07.jpeg);
 }
 .masonry3 .top_panel_image,
 .pricetables .top_panel_image {
-	background-image: url(../images/1170x700.jpg)!important;
+	background-image: url(../images/background_07.jpeg)!important;
 }
 .ourstaff .top_panel_image,
 .portfolio2 .top_panel_image {
-	background-image: url(../images/1170x700.jpg);
+	background-image: url(../images/background_07.jpeg);
 }
 .aboutus .top_panel_image,
 .ourpricing .top_panel_image,
 .portfolio3 .top_panel_image,
 .services1 .top_panel_image {
-	background-image: url(../images/1170x700.jpg);
+	background-image: url(../images/background_07.jpeg);
 }
 
 .singlepost .top_panel_image {
@@ -920,12 +910,12 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	margin-bottom:2.4em;
 }
 .services1 .sc_button.odd {
-	background-color:#8ed4cc; 
-	border-color:#8ed4cc;
+	background-color:#6c1492; 
+	border-color:#6c1492;
 }
 .services1 .sc_button.even {
-	background-color:#8238a2; 
-	border-color:#8238a2;
+	background-color:#6c1492; 
+	border-color:#6c1492;
 }
 
 .services2 .sc_tabs_style_2 {
@@ -934,8 +924,8 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 .services2 .sc_tabs_style_2 .sc_button_style_filled {
 	margin-top:2em;
 	margin-bottom:5em;
-	background-color:#8ed4cc; 
-	border-color:#8ed4cc;
+	background-color:#6c1492; 
+	border-color:#6c1492;
 }
 .services2 .sc_promo_block {
 	width: 50%; 
@@ -947,7 +937,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 
 .services2 .icon-garden111, 
 .pricetables .icon-garden111 {
-	color:#8238a2!important;
+	color:#6c1492!important;
 }
 
 .aboutus .sc_image_shape_square {
@@ -955,13 +945,13 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 }
 .aboutus .sc_skills_count.odd,
 .single-team .sc_skills_count.even {
-	background-color:#8ed4cc!important; 
-	border-color:#8ed4cc!important;
+	background-color:#6c1492!important; 
+	border-color:#6c1492!important;
 }
 .aboutus .sc_skills_count.even
 .single-team .sc_skills_count.odd {
-	background-color:#8238a2!important; 
-	border-color:#8238a2!important;
+	background-color:#6c1492!important; 
+	border-color:#6c1492!important;
 }
 
 .aboutus .sc_team_style_team-3,
@@ -1020,7 +1010,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	width:220px;
 }
 .typographic .icon-point {
-	color:#8ed4cc;
+	color:#6c1492;
 }
 .typographic .cu_pds_2 span  {
 	color:#757575!important;
@@ -1092,8 +1082,8 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	border-color:#323232!important;
 }
 .sc_button.blue {
-	background-color:#8ed4cc!important;
-	border-color:#8ed4cc!important;
+	background-color:#6c1492!important;
+	border-color:#6c1492!important;
 }
 .shortcodespg .sc_googlemap {
 	width:100%;
@@ -1121,12 +1111,12 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	border-color:#000000
 }
 #sc_skills_diagram_935 .sc_skills_item.odd .sc_skills_count {
-	background-color:#8ed4cc;
-	border-color:#8ed4cc
+	background-color:#6c1492;
+	border-color:#6c1492
 }
 #sc_skills_diagram_935 .sc_skills_item.even .sc_skills_count {
-	background-color:#8238a2; 
-	border-color:#8238a2;
+	background-color:#6c1492; 
+	border-color:#6c1492;
 }
 .gpolaroid .soc_low {
 	display: block; 

@@ -46,8 +46,8 @@ Primary use:	Health & Beauty
 
 # Text: #757575
 # Dark text: #323232
-# Link text: #8238a2
-# Hover text: #8ed4cc
+# Link text: #6c1492
+# Hover text: #6c1492
 # */
 
 /* 1. Reset tags
@@ -2201,7 +2201,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(2, 75, 94, 0.8);
+    background-color: rgba(50, 50, 50, 0.5); /* rgba(73, 19, 113, 0.5) */
 }
 .top_panel_image_header {
     position: absolute;

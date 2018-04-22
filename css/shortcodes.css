@@ -1927,11 +1927,11 @@ a:hover .sc_icon.sc_icon_shape_square:after {
 }
 .sc_infobox.sc_infobox_style_success {
     color: #fff;
-    background-color: #8ed4cc;
+    background-color: #6c1492;
 }
 .sc_infobox.sc_infobox_style_error {
     color: #fff;
-    background-color: #8238a2;
+    background-color: #323232;
 }
 .sc_infobox b,
 .sc_infobox strong {
@@ -4801,7 +4801,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small {
 .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li {
     margin: 0;
     padding: 1rem 0 1rem 4.5rem;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #323232;
     border-width: 1px 0;
     position: relative;
     width: 100%;
