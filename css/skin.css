@@ -863,6 +863,8 @@ input[type="number"],
 input[type="email"],
 input[type="search"],
 input[type="password"],
+input[type="date"],
+input[type="time"],
 select,
 textarea {
     font-size: 13px;
@@ -876,30 +878,10 @@ textarea {
 .scheme_original input[type="email"],
 .scheme_original input[type="search"],
 .scheme_original input[type="password"],
+.scheme_original input[type="date"],
+.scheme_original input[type="time"],
 .scheme_original select,
 .scheme_original textarea {
-    color: #9a9a9a;
-}
-
-.scheme_light input[type="text"],
-.scheme_light input[type="tel"],
-.scheme_light input[type="number"],
-.scheme_light input[type="email"],
-.scheme_light input[type="search"],
-.scheme_light input[type="password"],
-.scheme_light select,
-.scheme_light textarea {
-    color: #acb4b6;
-}
-
-.scheme_dark input[type="text"],
-.scheme_dark input[type="tel"],
-.scheme_dark input[type="number"],
-.scheme_dark input[type="email"],
-.scheme_dark input[type="search"],
-.scheme_dark input[type="password"],
-.scheme_dark select,
-.scheme_dark textarea {
     color: #9a9a9a;
 }
 
@@ -909,64 +891,18 @@ textarea {
 .scheme_original input[type="email"],
 .scheme_original input[type="search"],
 .scheme_original input[type="password"],
+.scheme_original input[type="date"],
+.scheme_original input[type="time"],
 .scheme_original select,
 .scheme_original textarea {
-    background-color: #f4f4f4;
-}
-
-.scheme_light input[type="text"],
-.scheme_light input[type="tel"],
-.scheme_light input[type="number"],
-.scheme_light input[type="email"],
-.scheme_light input[type="search"],
-.scheme_light input[type="password"],
-.scheme_light select,
-.scheme_light textarea {
-    background-color: #fff;
-}
-
-.scheme_dark input[type="text"],
-.scheme_dark input[type="tel"],
-.scheme_dark input[type="number"],
-.scheme_dark input[type="email"],
-.scheme_dark input[type="search"],
-.scheme_dark input[type="password"],
-.scheme_dark select,
-.scheme_dark textarea {
-    background-color: #f4f4f4;
-}
-
-.scheme_original input[type="text"],
-.scheme_original input[type="tel"],
-.scheme_original input[type="number"],
-.scheme_original input[type="email"],
-.scheme_original input[type="search"],
-.scheme_original input[type="password"],
-.scheme_original select,
-.scheme_original textarea {
-    border-color: #f4f4f4;
-}
-
-.scheme_light input[type="text"],
-.scheme_light input[type="tel"],
-.scheme_light input[type="number"],
-.scheme_light input[type="email"],
-.scheme_light input[type="search"],
-.scheme_light input[type="password"],
-.scheme_light select,
-.scheme_light textarea {
-    border-color: #e7e7e7;
-}
-
-.scheme_dark input[type="text"],
-.scheme_dark input[type="tel"],
-.scheme_dark input[type="number"],
-.scheme_dark input[type="email"],
-.scheme_dark input[type="search"],
-.scheme_dark input[type="password"],
-.scheme_dark select,
-.scheme_dark textarea {
-    border-color: #f4f4f4;
+    background-color: #6c1492;
+    border-color: rgba(256, 256, 256, 0.5);
+    
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+    padding-left: 0;
 }
 
 .scheme_original input[type="text"]:focus,
@@ -975,79 +911,21 @@ textarea {
 .scheme_original input[type="email"]:focus,
 .scheme_original input[type="search"]:focus,
 .scheme_original input[type="password"]:focus,
+.scheme_original input[type="date"]:focus,
+.scheme_original input[type="time"]:focus,
 .scheme_original select:focus,
 .scheme_original textarea:focus {
-    color: #232a34;
-}
-
-.scheme_light input[type="text"]:focus,
-.scheme_light input[type="tel"]:focus,
-.scheme_light input[type="number"]:focus,
-.scheme_light input[type="email"]:focus,
-.scheme_light input[type="search"]:focus,
-.scheme_light input[type="password"]:focus,
-.scheme_light select:focus,
-.scheme_light textarea:focus {
-    color: #232a34;
-}
-
-.scheme_dark input[type="text"]:focus,
-.scheme_dark input[type="tel"]:focus,
-.scheme_dark input[type="number"]:focus,
-.scheme_dark input[type="email"]:focus,
-.scheme_dark input[type="search"]:focus,
-.scheme_dark input[type="password"]:focus,
-.scheme_dark select:focus,
-.scheme_dark textarea:focus {
-    color: #fff;
-}
-
-.scheme_original input[type="text"]:focus,
-.scheme_original input[type="tel"]:focus,
-.scheme_original input[type="number"]:focus,
-.scheme_original input[type="email"]:focus,
-.scheme_original input[type="search"]:focus,
-.scheme_original input[type="password"]:focus,
-.scheme_original select:focus,
-.scheme_original textarea:focus {
-    background-color: #f4f4f4;
-}
-
-.scheme_light input[type="text"]:focus,
-.scheme_light input[type="tel"]:focus,
-.scheme_light input[type="number"]:focus,
-.scheme_light input[type="email"]:focus,
-.scheme_light input[type="search"]:focus,
-.scheme_light input[type="password"]:focus,
-.scheme_light select:focus,
-.scheme_light textarea:focus {
-    background-color: #f0f0f0;
-}
-
-.scheme_dark input[type="text"]:focus,
-.scheme_dark input[type="tel"]:focus,
-.scheme_dark input[type="number"]:focus,
-.scheme_dark input[type="email"]:focus,
-.scheme_dark input[type="search"]:focus,
-.scheme_dark input[type="password"]:focus,
-.scheme_dark select:focus,
-.scheme_dark textarea:focus {
-    background-color: #f4f4f4;
+    background-color: #6c1492 !important;
 }
 
 .scheme_original input::-webkit-input-placeholder,
 .scheme_original textarea::-webkit-input-placeholder {
-    color: #9a9a9a;
+    color: #ffffff;
 }
 
-.scheme_light input::-webkit-input-placeholder,
-.scheme_light textarea::-webkit-input-placeholder {
-    color: #acb4b6;
-}
-
-.scheme_dark input::-webkit-input-placeholder,
-.scheme_dark textarea::-webkit-input-placeholder {
-    color: #9a9a9a;
+.scheme_original input::-webkit-input-placeholder:focus,
+.scheme_original textarea::-webkit-input-placeholder:focus {
+    color: #ff0000;
 }
 
 .scheme_original .post-password-form input[type="submit"]:hover {
@@ -9317,7 +9195,7 @@ button,
 }
 
 .scheme_original .sc_form_style_form_1 .sc_form_item input[type="text"]::-webkit-input-placeholder {
-    color: #9a9a9a;
+    color: #fff;
 }
 
 .scheme_light .sc_form_style_form_1 .sc_form_item input[type="text"]::-webkit-input-placeholder {

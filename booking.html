@@ -40,6 +40,7 @@
                             <div class="logo">
                                 <a href="index.html">
                                     <img src="images/Logo.png" class="logo_main">
+                                    <img src="images/Logo.png" class="logo_fixed">
                                 </a>
                             </div>
                         </div>
@@ -114,46 +115,105 @@
                                                     <div class="sc_section_content_wrap">
                                                         <div id="sc_form_261_wrap" class="sc_form_wrap">
                                                             <div id="sc_form_261" class="sc_form sc_form_style_form_1">
-                                                                <form id="sc_form_261_form" data-formtype="form_1" method="post">
+                                                                <form id="" autocomplete="off" action="https://formspree.io/matthew.bierman2@gmail.com" method="POST">
                                                                     <div class="sc_form_info">
-                                                                        <div class="sc_form_item sc_form_field label_over">
-                                                                            <label class="required" for="sc_form_location">Location/Hotel</label>
-                                                                            <input id="sc_form_location" type="text" name="location" placeholder="Location/Hotel *">
+                                                                        <div class="sc_form_item sc_form_field label_over autocomplete">
+                                                                            <input id="myInput" type="text" name="Location/Hotel" placeholder="Location/Hotel *">
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <label for="sc_form_room">Room (or address not listed on location)</label>
-                                                                            <input id="sc_form_email" type="text" name="room" placeholder="Room (or address not listed on location)">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="sc_form_info">
-                                                                        <div class="sc_form_item sc_form_field label_over">
-                                                                            <label class="required" for="sc_form_phone_number">Phone Number</label>
-                                                                            <input id="sc_form_phone_number" type="text" name="phone_number" placeholder="Phone Number *">
-                                                                        </div>
-                                                                        <div class="sc_form_item sc_form_field label_over">
-                                                                            <label for="sc_form_pref_method">Preferred Method of Communication</label>
-                                                                            <input id="sc_form_email" type="radio" name="room" placeholder="Room (or address not listed on location)">
+                                                                            <input type="text" name="Room" placeholder="Room (or address if not listed)">
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_form_info">
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <label class="required" for="sc_form_username">Name</label>
-                                                                            <input id="sc_form_username" type="text" name="username" placeholder="Name *">
+                                                                            <input type="text" name="Phone Number" placeholder="Phone Number *">
+                                                                        </div>
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <input type="text" name="Email Address" placeholder="Email Address *">
+                                                                        </div>
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <div class="styled-select">
+                                                                                <select name="Preferred Contact Method">
+                                                                                    <option value="" disabled selected>Preferred Contact Method *</option>
+                                                                                    <option value="Email">Email</option>
+                                                                                    <option value="Call">Call</option>
+                                                                                    <option value="Text">Text</option>
+                                                                                </select>
+                                                                                <span class="fa fa-sort-desc"></span>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="sc_form_item sc_form_message label_over">
-                                                                        <label class="required" for="sc_form_message">Message</label>
-                                                                        <textarea id="sc_form_message" name="message" placeholder="Message"></textarea>
+                                                                    <div class="sc_form_info">
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <input type="text" name="First Name" placeholder="First Name *">
+                                                                        </div>
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <input type="text" name="Last Name" placeholder="Last Name *">
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="sc_form_item sc_form_button">
-                                                                        <button class="sc_button sc_button_size_medium secondary-color">
+                                                                    <div class="sc_form_info">
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <input type="number" name="Number of Guests" placeholder="Number of Guests *">
+                                                                        </div>
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <div class="styled-select">
+                                                                                <select name="Treatment">
+                                                                                    <option value="" disabled selected>Treatment *</option>
+                                                                                    <option value="Timeless Signature Ritual Massage">Timeless Signature Ritual Massage</option>
+                                                                                    <option value="Sports Massage">Sports Massage</option>
+                                                                                    <option value="Aromatherapy Massage">Aromatherapy Massage</option>
+                                                                                    <option value="Japanese Shiatsu Massage">Japanese Shiatsu Massage</option>
+                                                                                    <option value="Thai Fusion Oil Massage">Thai Fusion Oil Massage</option>
+                                                                                    <option value="Mothers-to-be Massage">Mothers-to-be Massage</option>
+                                                                                    <option value="Romantic Couples Massage">Romantic Couples Massage</option>
+                                                                                    <option value="Four Hands Symphony Massage">Four Hands Symphony Massage</option>
+                                                                                </select>
+                                                                                <span class="fa fa-sort-desc"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sc_form_info">
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <div class="styled-select">
+                                                                                <select name="Treatment Length">
+                                                                                    <option value="" disabled selected>Treatment Length *</option>
+                                                                                    <option value="60 minutes">60 minutes</option>
+                                                                                    <option value="90 minutes">90 minutes</option>
+                                                                                </select>
+                                                                                <span class="fa fa-sort-desc"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <div class="styled-select">
+                                                                                <select name="Preferred Therapist">
+                                                                                    <option value="" disabled selected>Preferred Therapist *</option>
+                                                                                    <option value="Male">Male</option>
+                                                                                    <option value="Female">Female</option>
+                                                                                </select>
+                                                                                <span class="fa fa-sort-desc"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sc_form_info">
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <input class="timedate-border" name="Preferred Date" placeholder="Preferred Date *" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+
+                                                                        </div>
+                                                                        <div class="sc_form_item sc_form_field label_over">
+                                                                            <input class="timedate-border" name="Preferred Time" placeholder="Preferred Time *" type="text" onfocus="(this.type='time')" onblur="(this.type='text')">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sc_form_item sc_form_message">
+                                                                        <textarea class="sc_form_item" name="Additional Notes" placeholder="Additional Notes"></textarea>
+                                                                    </div>
+                                                                    <div class="sc_form_item">
+                                                                        <button type="submit" class="sc_button sc_button_size_medium secondary-color">
                                                                             <span class="overlay">
-                                                                                <span class="first">Submit message</span>
-                                                                                <span class="second">Submit message</span>
+                                                                                <span class="first">Submit request</span>
+                                                                                <span class="second">Submit request</span>
                                                                             </span>
                                                                         </button>
                                                                     </div>
-                                                                    <div class="result sc_infobox"></div>
                                                                 </form>
                                                             </div>
                                                         </div>
@@ -183,7 +243,7 @@
                         <a href="#" class="sc_socials_item primary-color-dark-text"><i class="fab fa-2x fa-facebook-square"></i></a>
                         <a href="#" class="sc_socials_item primary-color-dark-text"><i class="fab fa-2x fa-instagram"></i></a>
                     </div>
-                    <span class="beforeSocials" style="padding-top: 7px">Connect With Us:</span>
+                    <span class="beforeSocials copyright_text" style="padding-top: 7px">Connect With Us:</span>
                     <div class="copyright_text">
                         <p>Timeless Massage © 2018 All Rights Reserved</p>
                         <p>License #2000162.520-120</p>
@@ -214,6 +274,11 @@
 <script type='text/javascript' src='js/vendor/jquery/tabs.min.js'></script>
 <script type='text/javascript' src='js/vendor/jquery/effect.min.js'></script>
 <script type='text/javascript' src='js/vendor/jquery/effect-fade.min.js'></script>
+<script>
+    autocomplete(document.getElementById("myInput"), ["Aria", "Bellagio", "Caesar Palace", "Delano Las Vegas", "Mansion", "Palazzo", "Venetian", "MGM", "SkyLoft", "New York New York", "Paris", "Planet Hollywood", "Cosmopolitan", "Mirage", "Mandalay Bay", "Four Seasons", "Red Rock", "Encore", "Wynn", "Veer Tower", "Mandarin Oriental", "Park Towers", "Turnberry Place/Towers", "None of the above"]);
+</script>
+    
 </body>
 
 </html>
+
