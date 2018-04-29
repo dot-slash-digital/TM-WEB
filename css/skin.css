@@ -1655,6 +1655,10 @@ textarea {
     border-color: rgba(242, 242, 242, 0.6);
 }
 
+.scheme_dark .menu_main_nav>li>a:hover {
+    border-color: rgba(130, 56, 162, 0.75);
+}
+
 .scheme_original .menu_main_nav>li>a:hover {
     color: #232a34;
 }
