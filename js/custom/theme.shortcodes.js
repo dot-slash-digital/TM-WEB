@@ -1083,6 +1083,7 @@ function jacqueline_countdown(dt) {
 }
 
 // Contact form handlers
+/*
 function jacqueline_sc_form_validate(form){
 	"use strict";
 	var url = form.attr('action');
@@ -1156,6 +1157,7 @@ function jacqueline_sc_form_validate(form){
 	}
 	return !error;
 }
+*/
 
 // Get players by category
 function jacqueline_select_players_category(sel) {
