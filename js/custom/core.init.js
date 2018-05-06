@@ -1715,14 +1715,14 @@ function jacqueline_registration_validate(form) {
 	return false;
 }
 */
-/* --------------------------------------------------------------------------- */
-/* --------------------------------------------------------------------------- */
-/* --------------------------------------------------------------------------- */
-/* autocomplete for booking form */
-/* --------------------------------------------------------------------------- */
-/* --------------------------------------------------------------------------- */
-/* --------------------------------------------------------------------------- */
 
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* ---------------------- autocomplete for booking form ---------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
   the text field element and an array of possible autocompleted values:*/
@@ -1881,3 +1881,179 @@ function closeAllSelect(elmnt) {
   }
 }
 document.addEventListener("click", closeAllSelect);
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------- contact form submission and error checking ---------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* jQuery(document).ready(function ($) {
+    $("#contact-form").submit(function() {
+        if ($("#contact-name-input").val() == "") {
+            $("#contact-name-input").removeClass("contact-form-success");
+            $("#contact-name-input").addClass("contact-form-error");
+        } else {
+            $("#contact-name-input").removeClass("contact-form-error");
+            $("#contact-name-input").addClass("contact-form-success");
+        }
+
+        if ($("#contact-email-input").val() == "") {
+            $("#contact-email-input").removeClass("contact-form-success");
+            $("#contact-email-input").addClass("contact-form-error");
+        } else {
+            $("#contact-email-input").removeClass("contact-form-error");
+            $("#contact-email-input").addClass("contact-form-success");
+        }
+        
+        if ($("#contact-phonenumber-input").val() == "") {
+            $("#contact-phonenumber-input").removeClass("contact-form-success");
+        } else {
+            $("#contact-phonenumber-input").addClass("contact-form-success");
+        }
+        
+        if ($("#contact-subject-input").val() == "") {
+            $("#contact-subject-input").removeClass("contact-form-success");
+        } else {
+            $("#contact-subject-input").addClass("contact-form-success");
+        }
+
+        if ($("#contact-message-input").val() == "") {
+            $("#contact-message-input").removeClass("contact-form-success");
+            $("#contact-message-input").addClass("contact-form-error");
+        } else {
+            $("#contact-message-input").removeClass("contact-form-error");
+            $("#contact-message-input").addClass("contact-form-success");
+        }
+
+        if ($("#contact-name-input").val() != "" && $("#contact-email-input").val() != "" && $("#contact-message-input").val() != "")
+            return true;
+        else
+            return false;
+    });
+}); */
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------- booking form submission and error checking ---------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+jQuery(document).ready(function ($) {
+    $("#booking-form").submit(function() {
+        if ($("#booking-locationhotel-input").val() == "") {
+            $("#booking-locationhotel-input").removeClass("contact-form-success");
+            $("#booking-locationhotel-input").addClass("contact-form-error");
+        } else {
+            $("#booking-locationhotel-input").removeClass("contact-form-error");
+            $("#booking-locationhotel-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-roomaddress-input").val() == "") {
+            $("#booking-roomaddress-input").removeClass("contact-form-success");
+        } else {
+            $("#booking-roomaddress-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-phonenumber-input").val() == "") {
+            $("#booking-phonenumber-input").removeClass("contact-form-success");
+            $("#booking-phonenumber-input").addClass("contact-form-error");
+        } else {
+            $("#booking-phonenumber-input").removeClass("contact-form-error");
+            $("#booking-phonenumber-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-email-input").val() == "") {
+            $("#booking-email-input").removeClass("contact-form-success");
+            $("#booking-email-input").addClass("contact-form-error");
+        } else {
+            $("#booking-email-input").removeClass("contact-form-error");
+            $("#booking-email-input").addClass("contact-form-success");
+        }
+        
+        if ($("#dropdown-contactmethod").val() == null) {
+            $("#booking-contactmethod-input").removeClass("contact-form-success");
+            $("#booking-contactmethod-input").addClass("contact-form-error");
+        } else {
+            $("#booking-contactmethod-input").removeClass("contact-form-error");
+            $("#booking-contactmethod-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-firstname-input").val() == "") {
+            $("#booking-firstname-input").removeClass("contact-form-success");
+            $("#booking-firstname-input").addClass("contact-form-error");
+        } else {
+            $("#booking-firstname-input").removeClass("contact-form-error");
+            $("#booking-firstname-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-lastname-input").val() == "") {
+            $("#booking-lastname-input").removeClass("contact-form-success");
+            $("#booking-lastname-input").addClass("contact-form-error");
+        } else {
+            $("#booking-lastname-input").removeClass("contact-form-error");
+            $("#booking-lastname-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-numguests-input").val() == "") {
+            $("#booking-numguests-input").removeClass("contact-form-success");
+            $("#booking-numguests-input").addClass("contact-form-error");
+        } else {
+            $("#booking-numguests-input").removeClass("contact-form-error");
+            $("#booking-numguests-input").addClass("contact-form-success");
+        }
+        
+        if ($("#dropdown-treatmenttype").val() == null) {
+            $("#booking-treatmenttype-input").removeClass("contact-form-success");
+            $("#booking-treatmenttype-input").addClass("contact-form-error");
+        } else {
+            $("#booking-treatmenttype-input").removeClass("contact-form-error");
+            $("#booking-treatmenttype-input").addClass("contact-form-success");
+        }
+        
+        if ($("#dropdown-treatmentlength").val() == null) {
+            $("#booking-treatmentlength-input").removeClass("contact-form-success");
+            $("#booking-treatmentlength-input").addClass("contact-form-error");
+        } else {
+            $("#booking-treatmentlength-input").removeClass("contact-form-error");
+            $("#booking-treatmentlength-input").addClass("contact-form-success");
+        }
+        
+        if ($("#dropdown-preferredtherapist").val() == null) {
+            $("#booking-preferredtherapist-input").removeClass("contact-form-success");
+            $("#booking-preferredtherapist-input").addClass("contact-form-error");
+        } else {
+            $("#booking-preferredtherapist-input").removeClass("contact-form-error");
+            $("#booking-preferredtherapist-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-preferreddate-input").val() == "") {
+            $("#booking-preferreddate-input").removeClass("contact-form-success");
+            $("#booking-preferreddate-input").addClass("contact-form-error");
+        } else {
+            $("#booking-preferreddate-input").removeClass("contact-form-error");
+            $("#booking-preferreddate-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-preferredtime-input").val() == "") {
+            $("#booking-preferredtime-input").removeClass("contact-form-success");
+            $("#booking-preferredtime-input").addClass("contact-form-error");
+        } else {
+            $("#booking-preferredtime-input").removeClass("contact-form-error");
+            $("#booking-preferredtime-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-comments-input").val() == "") {
+            $("#booking-comments-input").removeClass("contact-form-success");
+        } else {
+            $("#booking-comments-input").addClass("contact-form-success");
+        }
+        
+        if ($("#booking-locationhotel-input").val() != "" && $("#booking-phonenumber-input").val() != "" && $("#booking-email-input").val() != "" && $("#dropdown-contactmethod").val() != null && $("#booking-firstname-input").val() != "" && $("#booking-lastname-input").val() != "" && $("#booking-numguests-input").val() != "" && $("#dropdown-treatmenttype").val() != null && $("#dropdown-treatmentlength").val() != null && $("#dropdown-preferredtherapist").val() != null && $("#booking-preferreddate-input").val() != "" && $("#booking-preferredtime-input").val() != "")
+            return true;
+        else
+            return false;
+    });
+});

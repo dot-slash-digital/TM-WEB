@@ -5,6 +5,18 @@
     <title>Booking - Timeless Massage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#8407c6">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
     <link rel='stylesheet' href='css/admin_icon.min.css' type='text/css' media='all' />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:400,700|Mr+De+Haviland|Open+Sans:300,400,600,700,800|Raleway:100,200,300,300i,400,400i,500,600,700,700i,800,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese' type='text/css' media='all' />
     <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
@@ -115,26 +127,26 @@
                                                     <div class="sc_section_content_wrap">
                                                         <div id="sc_form_261_wrap" class="sc_form_wrap">
                                                             <div id="sc_form_261" class="sc_form sc_form_style_form_1">
-                                                                <form autocomplete="off" action="https://formspree.io/matthew.bierman2@gmail.com" method="POST">
+                                                                <form id="booking-form" autocomplete="off" action="https://formspree.io/matthew.bierman2@gmail.com" method="POST">
+                                                                    <input type="hidden" name="Form Type" value="Booking Request">
                                                                     <div class="sc_form_info">
-                                                                        <input type="hidden" name="Form Type" value="Booking Request">
                                                                         <div class="sc_form_item sc_form_field label_over autocomplete">
-                                                                            <input id="myInput" type="text" name="Location/Hotel" placeholder="Location/Hotel *">
+                                                                            <input id="booking-locationhotel-input" type="text" name="Location/Hotel" placeholder="Location/Hotel *">
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="text" name="Room" placeholder="Room (or address if not listed)">
+                                                                            <input id="booking-roomaddress-input" type="text" name="Room" placeholder="Room (or address if not listed)">
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_form_info">
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="text" name="Phone Number" placeholder="Phone Number *">
+                                                                            <input id="booking-phonenumber-input" type="text" name="Phone Number" placeholder="Phone Number *">
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="email" name="_replyto" placeholder="Email Address *">
+                                                                            <input id="booking-email-input" type="email" name="_replyto" placeholder="Email Address *">
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <div class="styled-select">
-                                                                                <select name="Preferred Contact Method">
+                                                                            <div id="booking-contactmethod-input" class="styled-select">
+                                                                                <select id="dropdown-contactmethod" name="Preferred Contact Method">
                                                                                     <option value="" disabled selected>Preferred Contact Method *</option>
                                                                                     <option value="Email">Email</option>
                                                                                     <option value="Call">Call</option>
@@ -146,19 +158,19 @@
                                                                     </div>
                                                                     <div class="sc_form_info">
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="text" name="First Name" placeholder="First Name *">
+                                                                            <input id="booking-firstname-input" type="text" name="First Name" placeholder="First Name *">
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="text" name="Last Name" placeholder="Last Name *">
+                                                                            <input id="booking-lastname-input" type="text" name="Last Name" placeholder="Last Name *">
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_form_info">
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="number" name="Number of Guests" placeholder="Number of Guests *">
+                                                                            <input id="booking-numguests-input" type="number" name="Number of Guests" placeholder="Number of Guests *">
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <div class="styled-select">
-                                                                                <select name="Treatment">
+                                                                            <div id="booking-treatmenttype-input" class="styled-select">
+                                                                                <select id="dropdown-treatmenttype" name="Treatment">
                                                                                     <option value="" disabled selected>Treatment *</option>
                                                                                     <option value="Timeless Signature Ritual Massage">Timeless Signature Ritual Massage</option>
                                                                                     <option value="Sports Massage">Sports Massage</option>
@@ -175,8 +187,8 @@
                                                                     </div>
                                                                     <div class="sc_form_info">
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <div class="styled-select">
-                                                                                <select name="Treatment Length">
+                                                                            <div id="booking-treatmentlength-input" class="styled-select">
+                                                                                <select id="dropdown-treatmentlength" name="Treatment Length">
                                                                                     <option value="" disabled selected>Treatment Length *</option>
                                                                                     <option value="60 minutes">60 minutes</option>
                                                                                     <option value="90 minutes">90 minutes</option>
@@ -185,8 +197,8 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <div class="styled-select">
-                                                                                <select name="Preferred Therapist">
+                                                                            <div id="booking-preferredtherapist-input" class="styled-select">
+                                                                                <select id="dropdown-preferredtherapist" name="Preferred Therapist">
                                                                                     <option value="" disabled selected>Preferred Therapist *</option>
                                                                                     <option value="Male">Male</option>
                                                                                     <option value="Female">Female</option>
@@ -197,15 +209,15 @@
                                                                     </div>
                                                                     <div class="sc_form_info">
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input class="timedate-border" name="Preferred Date" placeholder="Preferred Date *" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+                                                                            <input id="booking-preferreddate-input" class="timedate-border" name="Preferred Date" placeholder="Preferred Date *" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
 
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input class="timedate-border" name="Preferred Time" placeholder="Preferred Time *" type="text" onfocus="(this.type='time')" onblur="(this.type='text')">
+                                                                            <input id="booking-preferredtime-input" class="timedate-border" name="Preferred Time" placeholder="Preferred Time *" type="text" onfocus="(this.type='time')" onblur="(this.type='text')">
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_form_item sc_form_message">
-                                                                        <textarea class="sc_form_item" name="Additional Notes" placeholder="Additional Notes"></textarea>
+                                                                        <textarea id="booking-comments-input" name="Additional Notes/Comments" placeholder="Additional Notes/Comments"></textarea>
                                                                     </div>
                                                                     <div class="sc_form_item">
                                                                         <input type="hidden" name="_next" value="http://bierman.io/timelessmassage/confirmation.html" />
@@ -299,7 +311,6 @@
 <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
 <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='js/vendor/modernizr.min.js'></script>
-<script type='text/javascript' src='js/custom/custom.js'></script>
 <script type='text/javascript' src='js/vendor/superfish.js'></script>
 <script type='text/javascript' src='js/vendor/jquery.slidemenu.js'></script>
 <script type='text/javascript' src='js/custom/core.utils.js'></script>
@@ -315,9 +326,8 @@
 <script type='text/javascript' src='js/vendor/jquery/effect.min.js'></script>
 <script type='text/javascript' src='js/vendor/jquery/effect-fade.min.js'></script>
 <script>
-    autocomplete(document.getElementById("myInput"), ["Aria", "Bellagio", "Caesar Palace", "Delano Las Vegas", "Mansion", "Palazzo", "Venetian", "MGM", "SkyLoft", "New York New York", "Paris", "Planet Hollywood", "Cosmopolitan", "Mirage", "Mandalay Bay", "Four Seasons", "Red Rock", "Encore", "Wynn", "Veer Tower", "Mandarin Oriental", "Park Towers", "Turnberry Place/Towers", "None of the above"]);
+    autocomplete(document.getElementById("booking-locationhotel-input"), ["Aria", "Bellagio", "Caesar Palace", "Delano Las Vegas", "Mansion", "Palazzo", "Venetian", "MGM", "SkyLoft", "New York New York", "Paris", "Planet Hollywood", "Cosmopolitan", "Mirage", "Mandalay Bay", "Four Seasons", "Red Rock", "Encore", "Wynn", "Veer Tower", "Mandarin Oriental", "Park Towers", "Turnberry Place/Towers", "None of the above"]);
 </script>
-    
 </body>
 
 </html>

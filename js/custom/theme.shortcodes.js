@@ -129,7 +129,7 @@ function jacqueline_sc_init(container) {
 		}}, 500);
 
 	// Form
-	if (container.find('.sc_form:not(.inited) form').length > 0) {
+	/* if (container.find('.sc_form:not(.inited) form').length > 0) {
 		container.find(".sc_form:not(.inited) form").each(function() {
 			"use strict";
 			jQuery(this).addClass('inited');
@@ -161,7 +161,7 @@ function jacqueline_sc_init(container) {
 				jQuery(this).find('.js__timepicker').pickatime();
 			}
 		});
-	}
+	} */
 
 	//Countdown
 	if (container.find('.sc_countdown:not(.inited)').length > 0) {

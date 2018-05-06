@@ -7,14 +7,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#8407c6">
-    <link rel="shortcut icon" href="/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#8407c6">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     
     <!-- CSS -->
@@ -476,29 +476,29 @@
                                                     <div class="sc_section_content_wrap">
                                                         <div id="sc_form_261_wrap" class="sc_form_wrap">
                                                             <div id="sc_form_261" class="sc_form sc_form_style_form_1">
-                                                                <form action="https://formspree.io/matthew.bierman2@gmail.com" method="POST">
+                                                                <form id="contact-form" action="https://formspree.io/matthew.bierman2@gmail.com" method="POST">
                                                                     <div class="sc_form_info">
                                                                         <div class="sc_form_item sc_form_field label_over">
                                                                             <input type="hidden" name="Form Type" value="Contact">
-                                                                            <input type="text" name="Full Name" placeholder="Full Name *">
+                                                                            <input id="contact-name-input" type="text" name="Full Name" placeholder="Full Name *">
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="email" name="_replyto" placeholder="Email Address *">
+                                                                            <input id="contact-email-input" type="email" name="_replyto" placeholder="Email Address *">
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_form_info">
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="text" name="Phone Number" placeholder="Phone Number *">
+                                                                            <input id="contact-phonenumber-input" type="text" name="Phone Number" placeholder="Phone Number">
                                                                         </div>
                                                                         <div class="sc_form_item sc_form_field label_over">
-                                                                            <input type="text" name="Subject" placeholder="Subject">
+                                                                            <input id="contact-subject-input" type="text" name="Subject" placeholder="Subject">
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_form_item sc_form_message label_over">
-                                                                        <textarea class="sc_form_item" name="Message" placeholder="Message"></textarea>
+                                                                        <textarea id="contact-message-input" class="sc_form_item" name="Message" placeholder="Message *"></textarea>
                                                                     </div>
                                                                     <div class="sc_form_item">
-                                                                        <button type="submit" class="sc_button sc_button_size_medium secondary-color">
+                                                                        <button type="submit" class="sc_button sc_button_size_medium secondary-color"  value="Send">
                                                                             <span class="overlay">
                                                                                 <span class="first">Submit Message</span>
                                                                                 <span class="second">Submit Message</span>
@@ -558,7 +558,6 @@
 <script type="text/javascript" src="js/vendor/revslider/extensions/revolution.extension.layeranimation.min.js"></script>
 <script type="text/javascript" src="js/vendor/revslider/extensions/revolution.extension.navigation.min.js"></script>
 <script type='text/javascript' src='js/vendor/modernizr.min.js'></script>
-<script type='text/javascript' src='js/custom/custom.js'></script>
 <script type='text/javascript' src='js/vendor/superfish.js'></script>
 <script type='text/javascript' src='js/vendor/jquery.slidemenu.js'></script>
 <script type='text/javascript' src='js/custom/core.utils.js'></script>
