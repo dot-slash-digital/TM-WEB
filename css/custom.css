@@ -147,7 +147,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 
 
 .sc_custom_1459501367721 {
-	background-image: url(../images/background_01.jpeg) !important;
+	background-image: url(../images/background_02.jpeg) !important;
     background-position: center;
     background-size: cover;
     
@@ -390,7 +390,7 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	margin-bottom:2.75em;
 }
 .cu_block_4 {
-	background-image:url(../images/temp_background_01.jpg);
+	background-image:url(../images/background_03.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -853,40 +853,8 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	position: relative;
 }
 
-.certificates .top_panel_image {
-	background-image: url(../images/background_07.jpeg);
-}
-.eventspage .top_panel_image,
-.aboutus2 .top_panel_image,
-.postformats .top_panel_image {
-	background-image: url(../images/background_07.jpeg);
-}
-.contactus .top_panel_image,
-.classicblog .top_panel_image {
-	background-image: url(../images/background_07.jpeg);
-}
-.booking .top_panel_image,
-.services2 .top_panel_image,
-.masonry2 .top_panel_image {
-	background-image: url(../images/background_07.jpeg);
-}
-.masonry3 .top_panel_image,
-.pricetables .top_panel_image {
-	background-image: url(../images/background_07.jpeg)!important;
-}
-.ourstaff .top_panel_image,
-.portfolio2 .top_panel_image {
-	background-image: url(../images/background_07.jpeg);
-}
-.aboutus .top_panel_image,
-.ourpricing .top_panel_image,
-.portfolio3 .top_panel_image,
-.services1 .top_panel_image {
-	background-image: url(../images/background_07.jpeg);
-}
-
-.singlepost .top_panel_image {
-	background-image: url(../images/370x370.jpg)
+.certificates .top_panel_image, .eventspage .top_panel_image, .aboutus2 .top_panel_image, .postformats .top_panel_image, .contactus .top_panel_image, .classicblog .top_panel_image, .booking .top_panel_image, .services2 .top_panel_image, .masonry2 .top_panel_image, .masonry3 .top_panel_image, .pricetables .top_panel_image, .ourstaff .top_panel_image, .portfolio2 .top_panel_image, .aboutus .top_panel_image, .ourpricing .top_panel_image, .portfolio3 .top_panel_image, .services1 .top_panel_image {
+	background-image: url(../images/background_01.jpeg) !important;
 }
 
 .gcobbles .esg-filters,
