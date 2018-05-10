@@ -5450,12 +5450,16 @@ footer.twitter_wrap .sc_section_overlay {
     text-align: center;
 }
 .copyright_style_menu .copyright_text,
-.copyright_style_socials .copyright_text {
+.copyright_style_socials .copyright_text,
+.copyright_text_left {
+    text-align: left;
     float: left;
 }
 .copyright_style_socials .sc_socials,
 .copyright_style_socials .beforeSocials,
-.copyright_style_menu .menu_footer_nav {
+.copyright_style_menu .menu_footer_nav,
+.copyright_text_right {
+    text-align: right;
     float: right;
 }
 .copyright_style_socials .beforeSocials {

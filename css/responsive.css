@@ -1893,7 +1893,8 @@
 	}
 	.copyright_style_socials .sc_socials, 
 	.copyright_style_menu .menu_footer_nav,
-    .copyright_text {
+    .copyright_text, .copyright_text_left, 
+    .copyright_text_right {
 		float: none !important;
         text-align: center;
 	}

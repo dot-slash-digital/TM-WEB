@@ -5036,7 +5036,9 @@ textarea {
     color: #b2b2b2;
 }
 
-.scheme_original .copyright_wrap_inner .copyright_text {
+.scheme_original .copyright_wrap_inner .copyright_text,
+.scheme_original .copyright_wrap_inner .copyright_text_left,
+.scheme_original .copyright_wrap_inner .copyright_text_right {
     color: #b2b2b2;
 }
 

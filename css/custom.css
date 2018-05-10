@@ -4,12 +4,13 @@
     color: #ffffff !important;
 }
 
-.primary-color-dark-text {
-    color: #8238a2 !important;
+.link-text {
+    color: #b2b2b2 !important;
 }
 
-.primary-color-dark-text:hover {
-    color: #af51ff !important;
+.link-text:hover {
+    color: #b2b2b2 !important;
+    font-weight: bold;
 }
 
 .primary-color-light {
@@ -66,7 +67,13 @@
     background-color: rgba(220, 53, 69, 0.25) !important;
 }
 
-/*booked*/
+#bbb-logo {
+    width: 100px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+/* booked */
 
 body #booked-profile-page input[type=submit].button-primary:hover,
 body table.booked-calendar input[type=submit].button-primary:hover,
