@@ -73,210 +73,13 @@
     padding-bottom: 10px;
 }
 
-/* booked */
-
-body #booked-profile-page input[type=submit].button-primary:hover,
-body table.booked-calendar input[type=submit].button-primary:hover,
-body .booked-modal input[type=submit].button-primary:hover,
-body table.booked-calendar thead,
-body table.booked-calendar thead th,
-body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
-body #booked-profile-page .booked-profile-appt-list .appt-block .google-cal-button,
-body #booked-profile-page .booked-profile-header {
-	background: #6c1492!important;
-}
-
-body #booked-profile-page input[type=submit].button-primary:hover,
-body table.booked-calendar input[type=submit].button-primary:hover,
-body .booked-modal input[type=submit].button-primary:hover,
-body table.booked-calendar th,
-body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
-body #booked-profile-page .booked-profile-appt-list .appt-block .google-cal-button,
-body #booked-profile-page .booked-profile-header {
-	border-color: #6c1492!important;
-}
-
-body table.booked-calendar tr.days,
-body table.booked-calendar tr.days th,
-body .booked-calendarSwitcher,
-body .booked-calendarSwitcher select {
-	background: #ffffff!important;
-}
-
-body table.booked-calendar tr.days th {
-	border-color: #ffffff!important;
-}
-
-body #booked-profile-page input[type=submit].button-primary,
-body table.booked-calendar input[type=submit].button-primary,
-body .booked-modal input[type=submit].button-primary,
-body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
-body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block {
-	background: #6c1492;
-}
-
-body #booked-profile-page input[type=submit].button-primary,
-body table.booked-calendar input[type=submit].button-primary,
-body .booked-modal input[type=submit].button-primary,
-body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
-	border-color: #6c1492;
-}
-
-
-
-/*other*/
-
-
-.sc_custom_1459259915855 {
-	background-color: #f8f8f8!important;
-}
-.sc_custom_1459330954110 {
-	background-color: #6c1492!important;
-}
-.sc_custom_1459343317996 {
-	background-color: #f8f8f8!important;
-}
-.sc_custom_1459346050873 {
-	background-color: #f8f8f8!important;
-}
-.sc_custom_1459352457001 {
-	margin-top: 28px!important;
-}
-.sc_custom_1459344743835 {
-	margin-top: 25px!important;
-}
-
-
-.sc_custom_1459501367721 {
+.testimonials-background {
 	background-image: url(https://st2.depositphotos.com/2627021/5749/i/950/depositphotos_57491683-stock-photo-love-and-hope.jpg) !important;
     background-position: center;
     background-size: cover;
     
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: color-dodge;
-}
-.sc_custom_1459502371704 {
-	background-color: #6c1492 !important;
-}
-.sc_custom_1459503174388 {
-	background-color: #f8f8f8 !important;
-}
-
-.sc_custom_1460641232039 {
-	margin-bottom: 25px !important;
-}
-
-
-.sc_custom_1459762742825 {
-    background-color: #f8f8f8!important;
-}
-.sc_custom_1459330954110 {
-    background-color: #6c1492!important;
-}
-.sc_custom_1459773167157 {
-    background-color: #f8f8f8!important;
-}
-.sc_custom_1459776057240 {
-    background-color: #6c1492!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
-}
-.sc_custom_1459848155774 {
-	background-image: url(../images/1170x700.jpg)!important;
-}
-
-
-.sc_custom_1459502371704{
-	background-color:#6c1492!important;
-}
-.sc_custom_1459783303281{
-	background-color:#f8f8f8!important;
-}
-
-.sc_custom_1459775715133 {
-	background-color:#f8f8f8!important;
-}
-
-.sc_custom_1460037247892 {
-	background-color: #f8f8f8!important;
-}
-
-.sc_custom_1459347818729 {
-	background-image: url(../images/1170x700.jpg)!important;
-}
-
-.sc_custom_1459502371704 {
-	background-color: #6c1492!important;
-}
-
-.sc_custom_1459783303281 {
-	background-color: #f8f8f8!important;
-}
-
-
-.sc_custom_1459845857052{
-	background-color:#f8f8f8!important;
-}
-
-.sc_custom_1458736214924 {
-	margin-bottom:20px!important;
-}
-
-.sc_custom_1449134047180 {
-    background-color: #ffffff!important;
-}
-.sc_custom_1449136753813 {
-    background-color: #f6f7f7!important;
-}
-
-.sc_custom_1449052136583 {
-    background-color: #ffffff!important;
-}
-.sc_custom_1460038439472 {
-    background-color: #f8f8f8!important;
-}
-.sc_custom_1449069687256 {
-    background-color: #ffffff!important;
-}
-.sc_custom_1460038449775 {
-    background-color: #f8f8f8!important;
-}
-.sc_custom_1460723083670 {
-    margin-top: 25px!important;
-    margin-bottom: 30px!important;
-}
-.sc_custom_1460723195125 {
-    margin-top: 20px!important;
-}
-.sc_custom_1460723097648 {
-    margin-top: 30px!important;
-}
-.sc_custom_1459857781965 {
-    padding-right: 45px!important;
-}
-
-.sc_custom_1459783303281 {
-    background-color: #f8f8f8!important;
-}
-.sc_custom_1457948826201 {
-    margin-bottom: 20px!important;
-}
-
-.sc_custom_1459762742825 {
-    background-color: #f8f8f8!important;
-}
-.sc_custom_1459330954110 {
-    background-color: #6c1492!important;
-}
-.sc_custom_1459773167157 {
-    background-color: #f8f8f8!important;
-}
-.sc_custom_1459776057240 {
-    background-color: #6c1492!important;
-}
-.sc_custom_1459766274952 {
-    margin-bottom: 13px!important;
 }
 
 .wp-social-login-provider-list{
@@ -288,7 +91,6 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 .wp-social-login-provider-list img{
 	border:0
 }
-
 
 .cu_fullwidth {
 	width:100%;
@@ -769,24 +571,21 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	margin-right: 2.5px;
 }
 
-.sc_custom_1460641232039 span {
-	font-size: 1.153em;
-}
-.sc_custom_1459609995583 h2 {
+.info-section h2 {
 	margin-bottom:0.28em;
 	text-align:center;
 }
-.sc_custom_1459609995583 h6 {
+.info-section h6 {
 	margin-bottom:2em;
 	text-align:center;
 	font-size:1.23em;
 }
-.sc_custom_1459609995583 .sc_button_style_border {
+.info-section .sc_button_style_border {
 	margin-right:10px;
 	margin-left:10px;
 	width:9em;
 }
-.sc_custom_1459609995583 .sc_button_style_filled {
+.info-section .sc_button_style_filled {
 	margin-right:10px;
 	margin-left:10px;
 	width:9em;
@@ -794,64 +593,8 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button {
 	background-color:#ffffff!important;
 	border-color:#ffffff!important;
 }
-.sc_custom_1449069687256 .sc_image,
-.sc_custom_1460038439472 .columns_wrap {
-	margin-top:tiny;
-}
-.sc_custom_1460038449775 .sc_column_item,
-.sc_custom_1449136753813 p,
-.sc_custom_1460723083670 p {
-	text-align: center;
-}
-.sc_custom_1449069687256 .columns_wrap {
-	margin-top:small;
-}
-.sc_custom_1460038449775 .sc_title {
-	margin-top:small;
-	margin-bottom:small;
-	text-align:center;
-}
-.sc_custom_1460038449775 .columns_wrap {
-	margin-top:2em;
-}
-.sc_custom_1459773167157 .aligncenter {
-	width:990px;
-}
-.sc_custom_1459776057240 .aligncenter {
-	width:970px;
-}
 .customizepg p span {
 	font-weight: 400;
-}
-
-.postformats .sidebar .search_form {
-	margin-bottom: 1.15em;
-}
-.postformats .swiper-slide {
-	width:770px;
-	height:434px;
-}
-.postformats #sw_slide1 {
-	background-image:url(../images/1170x700.jpg);
-}
-.postformats #sw_slide2 {
-	background-image:url(../images/1170x700.jpg);
-}
-.postformats #sw_slide3 {
-	background-image:url(../images/1170x700.jpg);
-}
-
-.postformats .slides {
-	height:434px;
-}
-.postformats blockquote {
-	margin-top:inherit;
-	margin-right:inherit;
-	margin-bottom:inherit;
-	margin-left:inherit;
-}
-.eventspage .tribe-bar-filters #tribe-bar-date {
-	position: relative;
 }
 
 .certificates .top_panel_image, .eventspage .top_panel_image, .aboutus2 .top_panel_image, .postformats .top_panel_image, .contactus .top_panel_image, .classicblog .top_panel_image, .booking .top_panel_image, .services2 .top_panel_image, .masonry2 .top_panel_image, .masonry3 .top_panel_image, .pricetables .top_panel_image, .ourstaff .top_panel_image, .portfolio2 .top_panel_image, .aboutus .top_panel_image, .ourpricing .top_panel_image, .portfolio3 .top_panel_image, .services1 .top_panel_image {

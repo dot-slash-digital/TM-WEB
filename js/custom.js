@@ -118,7 +118,7 @@ function initRevSlider() {
 		} else {
 			revapi1 = tpj("#rev_slider_1_1").show().revolution({
 				sliderType: "standard",
-				jsFileLocation: "js/vendor/revslider/",
+				jsFileLocation: "js/revslider/",
 				sliderLayout: "auto",
 				dottedOverlay: "none",
 				delay: 9000,
@@ -235,7 +235,7 @@ function initRevSlider() {
 		} else {
 			revapi3 = tpj("#rev_slider_3_1").show().revolution({
 				sliderType: "standard",
-				jsFileLocation: "js/vendor/revslider/",
+				jsFileLocation: "js/revslider/",
 				sliderLayout: "fullscreen",
 				dottedOverlay: "none",
 				delay: 9000,
@@ -352,7 +352,7 @@ function initRevSlider() {
 		} else {
 			revapi4 = tpj("#rev_slider_4_1").show().revolution({
 				sliderType: "standard",
-				jsFileLocation: "js/vendor/revslider/",
+				jsFileLocation: "js/revslider/",
 				sliderLayout: "auto",
 				dottedOverlay: "none",
 				delay: 9000,
