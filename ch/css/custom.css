@@ -1,0 +1,962 @@
+.primary-color-dark {
+    background-color: #6c1492 !important;
+    border-color: #6c1492 !important;
+    color: #ffffff !important;
+}
+
+.link-text {
+    color: #b2b2b2 !important;
+}
+
+.link-text:hover {
+    color: #b2b2b2 !important;
+    font-weight: bold;
+}
+
+.primary-color-light {
+    border: 1px solid #9243d6 !important;
+    background-color: #6c1492 !important;
+}
+
+.primary-color-light:hover {
+    border: 1px solid #9243d6 !important;
+    background-color: #9243d6 !important;
+}
+
+.primary-color-light-text {
+    color: #9243d6 !important;
+}
+
+.primary-color-light-text:hover {
+    color: #b76bf8 !important;
+}
+
+.secondary-color {
+    background-color: #323232 !important;
+    border-color: #323232 !important;
+    color: #ffffff !important;
+}
+
+.secondary-color:hover {
+    background-color: #323232 !important;
+    border-color: #323232 !important;
+    color: #ffffff !important;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.white-text-faded {
+    color: #b2b2b2 !important;
+}
+
+.white-text-bright {
+    color: #e8e8e8 !important;
+}
+
+.contact-form-success {
+    border: 1px solid rgba(40, 167, 69, 1) !important;
+    padding-left: 5px !important;
+    background-color: rgba(40, 167, 69, 0.25) !important;
+}
+
+.contact-form-error {
+    border: 1px solid rgba(220, 53, 69, 1) !important;
+    padding-left: 5px !important;
+    background-color: rgba(220, 53, 69, 0.25) !important;
+}
+
+#bbb-logo {
+    width: 100px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.testimonials-background {
+	background-image: url(https://st2.depositphotos.com/2627021/5749/i/950/depositphotos_57491683-stock-photo-love-and-hope.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: color-dodge;
+}
+
+.wp-social-login-provider-list{
+	padding:10px
+}
+.wp-social-login-provider-list a{
+	text-decoration:none
+}
+.wp-social-login-provider-list img{
+	border:0
+}
+
+.cu_fullwidth {
+	width:100%;
+}
+.cu_width90p {
+	width:90%;
+}
+.cu_halfwidth {
+	width:50%;
+}
+
+.cu_width-1110 {
+	width:1110px;
+}
+.cu_width-1100 {
+	width:1100px;
+}
+.cu_width-1080 {
+	width:1080px;
+}
+.cu_width-990 {
+	width:990px;
+}
+.cu_width-970 {
+	width:970px;
+}
+.cu_width-840 {
+	width:840px;
+}
+.cu_width-770 {
+	width:770px;
+}
+
+.cu_fl_R {
+	float: right;
+}
+.cu_fl_L {
+	float: left;
+}
+
+
+.cu_nopadds {
+	padding: 0px!important;
+}
+
+.cu_pds_1 {
+	padding: 0 2em 5em 5em!important;
+}
+.cu_pds_2,
+.sc_list_style_iconed li.cu_pds_2 {
+	padding-left: 3em !important;
+}
+
+.cu_mrg_tt {
+	margin-top:tiny;;
+}
+.cu_mrg_bh {
+	margin-bottom:huge;
+}
+
+.cu_mrg_1 {
+	margin-top:3em;
+}
+.cu_mrg_2 {
+	margin-bottom: 1.15em;
+}
+.cu_mrg_3 {
+	margin-top:3.3em;
+}
+.cu_mrg_4 {
+	margin-top:1.45em;
+	margin-bottom:0.65em;
+}
+.cu_mrg_5 {
+	margin-top:0.8em;
+}
+.cu_mrg_6 {
+	margin-top:2em;
+}
+.cu_mrg_7 {
+	margin-top:3.5em;
+}
+.cu_mrg_8 {
+	margin-top:4.1em;
+}
+
+.cu_block_1 {
+	width: 45%!important; 
+	float: right; 
+	margin:3.3em 0;
+}
+.cu_block_2 {
+	margin-bottom:1.3em;
+	font-size:1em;
+}
+.cu_block_3 {
+	display: block!important; 
+	text-align: center;
+	margin-top:3.4em;
+	margin-bottom:2.75em;
+}
+.cu_block_4 {
+	background-image:url(https://st2.depositphotos.com/2959013/8969/i/950/depositphotos_89694294-stock-photo-perfect-day-at-the-spa.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.cu_block_5 {
+	background-color:#f8f8f8;
+}
+.cu_block_6 {
+	background-image:url(https://st2.depositphotos.com/3969019/5664/i/950/depositphotos_56643643-stock-photo-massage-therapist-at-the-luxury.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.cu_block_7 {
+	background-image:url(https://st.depositphotos.com/1005893/2231/i/950/depositphotos_22315067-stock-photo-balinese-spa-setting.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.cu_block_8 {
+	margin-bottom:1.8em;
+	text-align:center;
+}
+.cu_block_9 {
+	margin-top:0.7em;
+	margin-bottom:3.9em;
+	border-top-style:solid;
+}
+.cu_block_10 {
+	display: block; 
+	text-align: center;
+	margin-top:3.4em;
+	margin-bottom:2.75em;
+}
+.cu_block_11 {
+	margin-bottom: 3em!important;
+	text-align:center;
+}
+.cu_block_12 {
+	margin-top:2.9em;
+	margin-bottom:5em;
+	border-top-style:solid;
+}
+.cu_block_13 {
+	border-width: 2px;
+	margin-top:4.8em;
+	margin-bottom:4.5em;
+	border-top-style:solid;
+}
+.cu_block_14 {
+	border-width: 2px;
+	margin-top:2.9em;
+	margin-bottom:4.5em;
+	border-top-style:solid;
+}
+.cu_block_15 {
+	text-transform: none;
+	text-align:center!important;
+	color:#6c1492!important;
+}
+.cu_block_16 {
+	margin-bottom:2.1em;
+	font-size:1.46em;
+	color:#6c1492;
+}
+.cu_block_17 {
+	margin-top:3em;
+	background-color:#6c1492!important; 
+	border-color:#6c1492!important;
+}
+.cu_block_18 {
+	margin-top:1.5em;
+	margin-bottom:5.1em;
+	border-top-style:solid;
+}
+.cu_block_19 {
+	margin-top:4.5em;
+	margin-bottom:5.1em;
+	border-top-style:solid;
+}
+.cu_block_20 {
+	margin-top:3.5em;
+	margin-bottom:5.1em;
+	border-top-style:solid;
+}
+
+
+.cu_text_c {
+	text-align: center;
+    color: #e8e8e8;
+}
+.cu_text_r {
+	text-align: right;
+}
+
+.em_height_1 {
+	height: 1em;
+}
+.em_height_2 {
+	height: 2em!important;
+}
+.em_height_2-5 {
+	height: 2.5em
+}
+.em_height_3 {
+	height: 3em
+}
+.em_height_3-2 {
+	height: 3.2em
+}
+.em_height_3-7 {
+	height: 3.7em
+}
+.em_height_3-8 {
+	height: 3.8em
+}
+.em_height_4 {
+	height: 4em;
+}
+.em_height_4-2 {
+	height: 4.2em;
+}
+.em_height_4-4 {
+	height: 4.4em;
+}
+.em_height_4-5 {
+	height: 4.5em;
+}
+.em_height_4-6 {
+	height: 4.6em;
+}
+.em_height_4-8 {
+	height: 4.8em;
+}
+.em_height_5 {
+	height: 5em;
+}
+.em_height_5-5 {
+	height: 5.5em;
+}
+.em_height_5-7 {
+	height: 5.7em;
+}
+.em_height_6 {
+	height: 6em;
+}
+.em_height_6-5 {
+	height: 6.5em;
+}
+.em_height_7 {
+	height: 7em;
+}
+.em_height_7-2 {
+	height: 7.2em;
+}
+.em_height_7-3 {
+	height: 7.3em;
+}
+.em_height_7-4 {
+	height: 7.4em;
+}
+.em_height_7-5 {
+	height: 7.5em;
+}
+.em_height_7-7 {
+	height: 7.7em;
+}
+.em_height_7-8 {
+	height: 7.8em;
+}
+.em_height_8 {
+	height: 8em;
+}
+.em_height_8-3 {
+	height: 8.3em!important;
+}
+.em_height_8-4 {
+	height: 8.4em;
+}
+.em_height_8-46 {
+	height: 8.46em;
+}
+.em_height_10-5 {
+	height: 10.5em;
+}
+.em_height_11-4 {
+	height: 11.4em;
+}
+
+
+.contacts_wrap .logo img {
+	height: 30px
+}
+
+.recentcomments a {
+	display: inline!important;
+	padding: 0!important;
+	margin: 0!important;
+}
+
+#rev_slider_1_1_wrapper {
+	margin:0px auto;
+	background-color:transparent;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#rev_slider_3_1_wrapper {
+	background-color:transparent;
+	padding:0px;
+}
+#rev_slider_4_1_wrapper {
+	margin:0px auto;
+	background-color:transparent;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#page_preloader {
+	background-image: url(../images/loader.gif);
+}
+
+#esg-grid-6-1,
+#esg-grid-5-1,
+#esg-grid-4-1,
+#esg-grid-3-1,
+#esg-grid-2-1 {
+	background-color: transparent;
+	padding: 0px 0px 0px 0px;
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+
+.home .custom_title_01 {
+	opacity: 0.1;
+	margin-bottom:-0.8em;
+	text-align:right!important;
+	font-size:15.38em;
+}
+.home .sc_column_item_inner {
+	background-color:rgba(255,255,255,0.11);
+}
+.home .sc_column_item_inner .sc_title {
+	font-size:1.54em;
+}
+
+.services2 .sc_promo_image,
+.home .sc_promo_image.odd {
+	background-image:url(../images/1170x700.jpg);
+	width:50%;
+	left: 0;
+}
+.home .sc_promo_image.even {
+	background-image:url(../images/370x250.jpg);
+	width:65%;
+	left: 0;
+}
+.home .custom_services_pricing {
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:#6c1492;
+	width:585px;
+}
+.home .sc_icon_shape_square {
+	display:block;
+	bottom: auto!important; 
+	right: auto;
+	margin-top:-25px;
+	margin-bottom:0px;
+	font-size:18px;
+	color:#ffffff!important;
+	background-color:#6c1492!important;
+	border-color:#6c1492!important;
+}
+.home .columns_nofluid .sc_align_center {
+	margin-bottom:1.8em;
+	text-align:center;
+}
+.home .sc_line_position_center_center {
+	margin-top:0.7em;
+	margin-bottom:3.9em;
+	border-top-style:solid;
+}
+.home .sc_line_position_center_center + h5 {
+	bottom: 0; 
+	left: 0; 
+	position: relative;
+	text-align:center;
+}
+
+
+.home2 .cu_block_5 .aligncenter {
+	margin-top:2em;
+	margin-bottom:7em;
+}
+.home2 .cu_block_5 .sc_align_center {
+	margin-top:2.45em;
+	text-align:center;
+}
+.home2 .cu_block_5 .sc_line_style_solid {
+	margin-top:1.1em;
+	margin-right:auto;
+	margin-bottom:1.2em;
+	margin-left:auto;
+	width:70px;
+	border-top-style:solid;
+	border-top-color:#e8e8e8;
+}
+.home2 .sc_team_style_team-3 {
+	width:1040px;
+}
+
+.home2 .sc_skills_counter,
+.services1 .sc_skills_counter,
+.aboutus2 .sc_skills_counter {
+	margin-bottom:3em;
+}
+.home2 h1.odd {
+	font-family: "Mr De Haviland", cursive; 
+	text-transform: none;
+	margin-bottom:-0.05em;
+	color:#6c1492;
+}
+.home2 h1.even {
+	margin-bottom:0.3em;
+}
+.home2 .custom_number + h5 {
+	margin-bottom: 0!important;
+}
+.home2 .custom_number + h5 + span{
+	font-size: 12px; 
+	color: #9a9a9a;
+}
+.home2 .custom_product_we_use .sc_button {
+	margin-top:2em;
+	background-color:#6c1492!important;
+	border-color:#6c1492!important;
+}
+#sc_tab_009_1 .sc_button,
+#sc_tab_009_2 .sc_button,
+#sc_tab_009_3 .sc_button,
+#sc_tab_009_4 .sc_button,
+#sc_tab_655_1_94 .sc_button {
+	margin-top:2em;
+	margin-bottom:5em;
+	background-color:#6c1492; 
+	border-color:#6c1492;
+}
+
+.home3 .body_wrap {
+	background: url(../images/1.jpg) left top no-repeat fixed!important;
+	background-color: #ffffff;
+}
+.home3 .sc_column_item_inner {
+	background-color:rgba(255,255,255,0.11);
+}
+.home3 .sc_column_item_inner h6 {
+	font-size:1.54em;
+}
+.home3 .sc_columns_count_3 {
+	margin-top:3.3em;
+}
+.home3 .sc_price_block_style_1 {
+	margin-bottom:2em;
+}
+.home3 .icon-garden111 {
+	color:#6c1492!important;
+}
+.home3 .esg-filters {
+	margin-bottom: 45px!important; 
+	text-align: center; 
+}
+.home3 .esg-filter-wrapper {
+	margin-left: 2.5px; 
+	margin-right: 2.5px;
+}
+
+.info-section h2 {
+	margin-bottom:0.28em;
+	text-align:center;
+}
+.info-section h6 {
+	margin-bottom:2em;
+	text-align:center;
+	font-size:1.23em;
+}
+.info-section .sc_button_style_border {
+	margin-right:10px;
+	margin-left:10px;
+	width:9em;
+}
+.info-section .sc_button_style_filled {
+	margin-right:10px;
+	margin-left:10px;
+	width:9em;
+	color:#6c1492!important;
+	background-color:#ffffff!important;
+	border-color:#ffffff!important;
+}
+.customizepg p span {
+	font-weight: 400;
+}
+
+.certificates .top_panel_image, .eventspage .top_panel_image, .aboutus2 .top_panel_image, .postformats .top_panel_image, .contactus .top_panel_image, .classicblog .top_panel_image, .booking .top_panel_image, .services2 .top_panel_image, .masonry2 .top_panel_image, .masonry3 .top_panel_image, .pricetables .top_panel_image, .ourstaff .top_panel_image, .portfolio2 .top_panel_image, .aboutus .top_panel_image, .ourpricing .top_panel_image, .portfolio3 .top_panel_image, .services1 .top_panel_image {
+	background-image: url(https://st3.depositphotos.com/1000260/14191/i/1600/depositphotos_141916002-stock-photo-massage-woman-spa-salon-female.jpg) !important;
+}
+
+.gcobbles .esg-filters,
+.gmasonry .esg-filters,
+.ggrid .esg-filters {
+	margin-bottom: 40px; 
+	text-align: center; 
+}
+.gcobbles .esg-filter-wrapper,
+.gmasonry .esg-filter-wrapper,
+.ggrid .esg-filter-wrapper {
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+}
+.gmasonry .eg-cleveland-massage-element-22 {
+	height: 5px!important; 
+	visibility: hidden;
+}
+.services1 .sc_image {
+	margin-top:1.3em!important;
+	margin-bottom:2.3em;
+	height:118px;
+}
+.services1 h4 {
+	margin-bottom:0.9em;
+}
+.services1 .sc_column_item_inner {
+	background-color:#f8f8f8;
+}
+.services1 .sc_button.odd,
+.services1 .sc_button.even {
+	margin-top:2.8em;
+	margin-bottom:2.4em;
+}
+.services1 .sc_button.odd {
+	background-color:#6c1492; 
+	border-color:#6c1492;
+}
+.services1 .sc_button.even {
+	background-color:#6c1492; 
+	border-color:#6c1492;
+}
+
+.services2 .sc_tabs_style_2 {
+	margin-top:6em;
+}
+.services2 .sc_tabs_style_2 .sc_button_style_filled {
+	margin-top:2em;
+	margin-bottom:5em;
+	background-color:#6c1492; 
+	border-color:#6c1492;
+}
+.services2 .sc_promo_block {
+	width: 50%; 
+	float: right;
+}
+.services2 .sc_promo_block_inner {
+	padding: 0px;
+}
+
+.services2 .icon-garden111, 
+.pricetables .icon-garden111 {
+	color:#6c1492!important;
+}
+
+.aboutus .sc_image_shape_square {
+	margin-bottom:4em;
+}
+.aboutus .sc_skills_count.odd,
+.single-team .sc_skills_count.even {
+	background-color:#6c1492!important; 
+	border-color:#6c1492!important;
+}
+.aboutus .sc_skills_count.even
+.single-team .sc_skills_count.odd {
+	background-color:#6c1492!important; 
+	border-color:#6c1492!important;
+}
+
+.aboutus .sc_team_style_team-3,
+.aboutus2 .sc_team_style_team-3,
+.ourstaff .sc_team_style_team-3 {
+	width:1040px;
+}
+
+.ourstaff .sc_line_style_solid {
+	margin-top:2.9em;
+	margin-bottom:5em;
+	border-top-style:solid;
+}
+
+.contactus .sc_align_center {
+	margin-bottom:1.8em;
+	text-align:center;
+}
+.contactus p {
+	text-align: center;
+}
+.contactus .sc_googlemap {
+	width:100%;
+	height:450px;
+}
+.contactus .cu_mrg_5 .columns_wrap {
+	margin-top:2.5em;
+}
+
+.pricetables .sc_columns_count_3 {
+	margin-top:3.3em;
+}
+.pricetables .sc_price_block_style_1 {
+	margin-bottom:2em;
+}
+.pricetables .sc_section_block {
+	width:990px;
+}
+
+.ourpricing .sc_tabs_style_3 {
+	margin-top:2.8em;
+}
+
+.certificates .sc_gift {
+	margin-bottom:3em;
+}
+
+.typographic .sc_dropcaps {
+	margin-bottom:2em;
+}
+.typographic .sc_image {
+	width:45%;
+}
+.typographic .sc_section_block {
+	margin-right:0px;
+	width:220px;
+}
+.typographic .icon-point {
+	color:#6c1492;
+}
+.typographic .cu_pds_2 span  {
+	color:#757575!important;
+	font-size:3em;
+}
+
+.error404 .body_wrap {
+	background: url(../images/1170x700.jpg) center center no-repeat fixed;
+	background-color: #ffffff;
+}
+.videopg .sc_title {
+	margin-bottom:1em;
+	text-align:center;
+}
+.videopg .sc_line {
+	margin-top:3em;
+	margin-bottom:6em;
+	border-top-style:solid;
+}
+.videopg .sc_video_frame {
+	margin-bottom:3em;
+	width:100%;
+}
+.videopg .sc_button_square {
+	margin-top:3em;
+	margin-bottom:2em;
+}
+
+.supportpg .sc_section {
+	margin-top:large;
+	margin-bottom:large;
+}
+
+.faqpg .sc_accordion {
+	margin-bottom:5em;
+}
+.faqpg .widget_text .search_form {
+	margin-bottom: 1.15em;
+}
+
+.single-team .sc_columns_count_3 {
+	margin-top: 6.7em!important; 
+	margin-bottom: 7em!important;
+}
+.single-team .sc_column_item {
+	margin-right: -3px;
+}
+.single-team .sc_title {
+	margin-top: -0.2em; 
+	margin-bottom: 1.2em;; 
+}
+
+.shortcodespg .sc_tabs,
+.shortcodespg .sc_accordion {
+	margin-bottom:4em;
+}
+.shortcodespg .sc_section_content_wrap .buttonup {
+	margin-right:10px!important;
+	margin-bottom:1rem!important;
+	margin-left:10px!important;
+}
+.shortcodespg .sc_section_content_wrap .column-1_3 .sc_button_square {
+	box-sizing: border-box;
+	margin-bottom:1rem;
+	width:100%;
+}
+.sc_button.dark {
+	background-color:#323232!important; 
+	border-color:#323232!important;
+}
+.sc_button.blue {
+	background-color:#6c1492!important;
+	border-color:#6c1492!important;
+}
+.shortcodespg .sc_googlemap {
+	width:100%;
+	height:450px;
+}
+.shortcodespg .sc_quote {
+	margin-top:1.3em;
+	margin-right:auto;
+	margin-bottom:1.6em;
+	margin-left:auto;
+	width:830px;
+}
+
+#sc_skills_diagram_372 .sc_skills_count {
+	background-color:#000000; 
+	border-color:#000000
+}
+#sc_skills_diagram_935 .sc_skills_item.odd .sc_skills_count {
+	background-color:#6c1492;
+	border-color:#6c1492
+}
+#sc_skills_diagram_935 .sc_skills_item.even .sc_skills_count {
+	background-color:#6c1492; 
+	border-color:#6c1492;
+}
+.gpolaroid .soc_low {
+	display: block; 
+	text-align: center;
+	margin-top:3.4em;
+	margin-bottom:2.75em;
+}
+
+.services2 .sc_services_type_icons,
+.services1 .sc_call_to_action,
+.services1 .sc_testimonials,
+.services1 .swiper-slide,
+.aboutus .sc_testimonials,
+.aboutus .swiper-slide,
+.aboutus2 .swiper-slide,
+.aboutus2 .sc_testimonials,
+.aboutus2 .sc_call_to_action,
+.certificates .swiper-slide,
+.certificates .sc_testimonials,
+.single-team .sc_testimonials,
+.single-team .swiper-slide,
+.single-team .sc_call_to_action,
+.ourpricing .sc_menuitems_style_menuitems-1,
+.ourstaff .sc_call_to_action,
+.home3 .sc_clients,
+.home3 .swiper-slide,
+.shortcodespg .sc_video_frame,
+.shortcodespg .swiper-slide,
+.shortcodespg .sc_slider_swiper {
+	width:100%;
+}
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* autocomplete for booking form */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #6c1492; 
+    border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-items div:hover {
+    background-color: #9243d6; 
+}
+
+.autocomplete-active {
+    background-color: #9243d6 !important; 
+    color: #ffffff; 
+}
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* dropdown menu for booking form */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+.styled-select {
+  border-bottom: 2px solid rgba(256, 256, 256, 0.5);
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.styled-select, .styled-select select {
+    width: 100%;
+}
+
+select:focus { outline: none; }
+.styled-select select {
+  padding-left: 0 !important;
+  background: transparent;
+  border: none;
+  
+  /*hide default down arrow in webkit */
+  -webkit-appearance: none; 
+}
+
+@-moz-document url-prefix(){
+    .styled-select select {
+      width: 110%;
+    }
+}
+
+.fa-sort-desc {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  font-size: 24px;
+}
+
+ select::-ms-expand {
+     display: none;
+}
+
+_:-o-prefocus, .selector {
+  .styled-select {
+      background: none;
+    }
+}
+
+.timedate-border {
+    border-bottom: 2px solid rgba(256, 256, 256, 0.5);
+}
