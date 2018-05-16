@@ -2326,7 +2326,7 @@ function jacqueline_sc_init(container) {
 			});
 		}}, 500);
 
-	//Countdown
+	// Countdown
 	if (container.find('.sc_countdown:not(.inited)').length > 0) {
 		container.find('.sc_countdown:not(.inited)')
 			.each(function () {
@@ -2628,7 +2628,6 @@ function jacqueline_sc_init(container) {
 		});
 	}
 
-	
 	// Section Pan init
 	if (container.find('.sc_pan:not(.inited_pan)').length > 0) {
 		container.find('.sc_pan:not(.inited_pan)')
@@ -2666,7 +2665,6 @@ function jacqueline_sc_init(container) {
 				jacqueline_sc_init_scroll_area(jQuery(this));
 			});
 	}
-
 
 	// Swiper Slider
 	if (container.find('.sc_slider_swiper:not(.inited)').length > 0) {
@@ -2775,6 +2773,7 @@ function jacqueline_sc_init(container) {
 		jacqueline_sc_init_skills(container);
 		jQuery(window).scroll(function () { jacqueline_sc_init_skills(container); });
 	}
+    
 	//Skills type='arc' init
 	if (container.find('.sc_skills_arc:not(.inited)').length > 0) {
 		jacqueline_sc_init_skills_arc(container);
@@ -2872,7 +2871,7 @@ function jacqueline_sc_init(container) {
 			});
 	}
 
-	//Zoom
+	// Zoom
 	if (container.find('.sc_zoom:not(.inited)').length > 0) {
 		container.find('.sc_zoom:not(.inited)')
 			.each(function () {
