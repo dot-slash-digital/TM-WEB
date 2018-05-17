@@ -74,7 +74,7 @@
 }
 
 .testimonials-background {
-	background-image: url(https://st2.depositphotos.com/2627021/5749/i/950/depositphotos_57491683-stock-photo-love-and-hope.jpg) !important;
+	background-image: url(../images/background_05.jpg) !important;
     background-position: center;
     background-size: cover;
     
@@ -193,7 +193,7 @@
 	margin-bottom:2.75em;
 }
 .cu_block_4 {
-	background-image:url(https://st2.depositphotos.com/2959013/8969/i/950/depositphotos_89694294-stock-photo-perfect-day-at-the-spa.jpg);
+	background-image:url(https://st2.depositphotos.com/1022135/9413/i/950/depositphotos_94132794-stock-photo-woman-having-massage.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -206,7 +206,7 @@
 	background-size:cover;
 }
 .cu_block_7 {
-	background-image:url(https://st.depositphotos.com/1005893/2231/i/950/depositphotos_22315067-stock-photo-balinese-spa-setting.jpg);
+	background-image:url(../images/background_04.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -597,8 +597,26 @@
 	font-weight: 400;
 }
 
-.certificates .top_panel_image, .eventspage .top_panel_image, .aboutus2 .top_panel_image, .postformats .top_panel_image, .contactus .top_panel_image, .classicblog .top_panel_image, .booking .top_panel_image, .services2 .top_panel_image, .masonry2 .top_panel_image, .masonry3 .top_panel_image, .pricetables .top_panel_image, .ourstaff .top_panel_image, .portfolio2 .top_panel_image, .aboutus .top_panel_image, .ourpricing .top_panel_image, .portfolio3 .top_panel_image, .services1 .top_panel_image {
+/* .certificates .top_panel_image, .eventspage .top_panel_image, .aboutus2 .top_panel_image, .postformats .top_panel_image, .contactus .top_panel_image, .classicblog .top_panel_image, .booking .top_panel_image, .services2 .top_panel_image, .masonry2 .top_panel_image, .masonry3 .top_panel_image, .pricetables .top_panel_image, .ourstaff .top_panel_image, .portfolio2 .top_panel_image, .aboutus .top_panel_image, .ourpricing .top_panel_image, .portfolio3 .top_panel_image, .services1 .top_panel_image {
 	background-image: url(https://st3.depositphotos.com/1000260/14191/i/1600/depositphotos_141916002-stock-photo-massage-woman-spa-salon-female.jpg) !important;
+} */
+
+.background_image_about {
+    background-image: url(https://st3.depositphotos.com/6583218/16322/i/1600/depositphotos_163225352-stock-photo-thai-spa-massage-compress-balls.jpg) !important;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color-dodge;
+}
+
+.background_image_menu {
+    background-image: url(https://st3.depositphotos.com/1000260/14191/i/1600/depositphotos_141916002-stock-photo-massage-woman-spa-salon-female.jpg) !important;
+}
+
+.background_image_booking {
+    background-image: url(../images/background_06.jpg) !important;
+}
+
+.background_image_confirmation {
+    background-image: url(../images/background_07.jpg) !important;
 }
 
 .gcobbles .esg-filters,
