@@ -2204,11 +2204,10 @@ jQuery(document).ready(function ($) {
 // fit confirmation page to window for large screens
 //=====================================================
 jQuery(document).ready(function() {
-    jQuery(".page_content_wrap").height(jQuery(".page_content_wrap").height() + (jQuery(document).height() - jQuery("body").height()));
+    jQuery(".confirmation_page_content_wrap").height(jQuery(".confirmation_page_content_wrap").height() + (jQuery(document).height() - jQuery("body").height()));
 });
 jQuery(window).resize(function() {
-    alert("Hi");
-    jQuery(".page_content_wrap").height(jQuery(".page_content_wrap").height() + (jQuery(document).height() - jQuery("body").height()));
+    jQuery(".confirmation_page_content_wrap").height(jQuery(".confirmation_page_content_wrap").height() + (jQuery(document).height() - jQuery("body").height()));
 });
 
 /* ----------------------------------------------------------- */
