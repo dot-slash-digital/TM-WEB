@@ -2124,6 +2124,12 @@ jQuery(document).ready(function ($) {
             $("#booking-contactmethod-input").addClass("contact-form-success");
         }
         
+        if ($("#booking-driverslicense-input").val() == "") {
+            $("#booking-driverslicense-input").removeClass("contact-form-success");
+        } else {
+            $("#booking-driverslicense-input").addClass("contact-form-success");
+        }
+        
         if ($("#booking-firstname-input").val() == "") {
             $("#booking-firstname-input").removeClass("contact-form-success");
             $("#booking-firstname-input").addClass("contact-form-error");
@@ -2194,7 +2200,7 @@ jQuery(document).ready(function ($) {
             $("#booking-comments-input").addClass("contact-form-success");
         }
         
-        if ($("#booking-locationhotel-input").val() != "" && $("#booking-phonenumber-input").val() != "" && $("#booking-email-input").val() != "" && $("#dropdown-contactmethod").val() != null && $("#booking-firstname-input").val() != "" && $("#booking-lastname-input").val() != "" && $("#booking-numguests-input").val() != "" && $("#dropdown-treatmenttype").val() != null && $("#dropdown-treatmentlength").val() != null && $("#dropdown-preferredtherapist").val() != null && $("#booking-preferreddate-input").val() != "" && $("#booking-preferredtime-input").val() != "")
+        if ($("#booking-locationhotel-input").val() != "" && $("#booking-phonenumber-input").val() != "" && $("#booking-email-input").val() != "" && $("#dropdown-contactmethod").val() != null && $("#booking-driverslicense-input").val() != null && $("#booking-firstname-input").val() != "" && $("#booking-lastname-input").val() != "" && $("#booking-numguests-input").val() != "" && $("#dropdown-treatmenttype").val() != null && $("#dropdown-treatmentlength").val() != null && $("#dropdown-preferredtherapist").val() != null && $("#booking-preferreddate-input").val() != "" && $("#booking-preferredtime-input").val() != "")
             return true;
         else
             return false;
